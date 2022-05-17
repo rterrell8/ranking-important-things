@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+  /* margin: 10%; */
+  margin-left: 7%;
+  margin-right: 7%;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 25px;
+  color: #131515;
+}
+.hero{
+  min-height: 85vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 40px;
+  font-size: 30px;
+  margin-right: 7%;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.cta1{
+  display: flex;
+  flex-direction: row;
+  gap: 40vw;
+  margin-left: 26vh;
+  margin-right: 23vh;
+  font-size: 18px;
+  text-align: center center;
+}
+
+.cta1 a{
+  text-decoration: none;
+  color: #131515;
+  background: #DECBB7;
+  margin: 4vw;
+  margin: 4vh;
+}
+h1{
+  font-weight: 800;
+}
+
+.profile{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10vh;
+}
+
+.profileinfo{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+.statement{
+  display: flex;
+  flex-direction:row;
+  padding-top: 3vh;
+}
+.link1{
+  display: grid;
+  place-items: center center;
+  width: 40vh;
+  height: 45vh;
+  border: solid 1px #131515;
+  text-align: center;
+}
+.link2{
+  display: grid;
+  place-items: center center;
+  width: 40vh;
+  height: 45vh;
+  border: solid 1px #131515;
+  text-align: center;
+}
+.links{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+.links a{
+  text-decoration: none;
+  color: #131515;
+  background: #DECBB7;
+  margin: 4vw;
+  margin: 4vh;
+}
+h3{
+  font-size: 18vh;
+}
+.header{
+  justify-content: left;
+}
+.header a{
+  text-decoration: none;
+  color: #131515;
+  background: #DECBB7;
+}
+.hero2{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+}
+
+.hero2 img {
+  height: 85vh;
+  width: 1200px;
+}
+
+.tennine{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+  margin-top: 4%;
+}
+.eightseven{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 4%;
+}
+.sixfive{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+  margin-top: 4%;
+}
+.fourthree{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 4%;
+}
+.twoone{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+  margin-top: 4%;
+}
+.hero3 img{
+  height: 85vh;
+}
+.hero3{
+  font-size: 35px;
+  min-height: 80vh;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.nineeight{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+  font-size: 22px;
+  margin-top: 2.5px;
+}
+.seven{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5vh;
+  grid-gap: 5vw;
+}
+.six{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5vh;
+  grid-gap: 5vw;
+}
+.five{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5vh;
+  grid-gap: 5vw;
+}
+.four{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5vh;
+  grid-gap: 5vw;
+}
+.three{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5vh;
+  grid-gap: 5vw;
+}
+.two{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5vh;
+  grid-gap: 5vw;
+}
+.one{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5vh;
+  grid-gap: 5vw;
+  margin-bottom: 3vh;
+}
